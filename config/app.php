@@ -122,5 +122,13 @@ return [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
+    /*
+    |--------------------------------------------------------------------------
+    | Clave maestra para registrar administradores
+    |--------------------------------------------------------------------------
+    */
+    'admin_registration_key' => env('ADMIN_REGISTRATION_KEY'),
 
+    
 ];
+
